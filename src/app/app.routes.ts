@@ -17,7 +17,7 @@ export const routes: Routes = [
         children: [
             { path: 'dashboard', component: DashboardComponent },
             { path: 'settings', component: SettingsComponent },
-            //{ path: '', redirectTo: 'dashboard', pathMatch: 'full' }, // Redireciona para dashboard por padrão
+            { path: '', redirectTo: 'dashboard', pathMatch: 'full' }, // Redireciona para dashboard por padrão
         ]
     },
     { path: '', redirectTo: '/login', pathMatch: 'full' },
