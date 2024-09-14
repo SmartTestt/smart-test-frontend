@@ -1,0 +1,35 @@
+
+.navheader {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--sidebar-width);
+  padding: 10px;
+  width: calc(100% - var(--sidebar-width));
+}
+.logo{
+  color: black;
+}
+.logo2{
+  color: lightpink;
+}
+
+
+/**            **/
+.home{
+  display: flex;
+}
+
+.content{
+  width: calc(100% - var(--sidebar-width));
+  height: 100vh;
+}
+.side {
+  width: var(--sidebar-width);
+}
+.body{
+  padding: 10px;
+  margin-top: var(--sidebar-width);
+  height: calc(100% - var(--sidebar-width));
+}

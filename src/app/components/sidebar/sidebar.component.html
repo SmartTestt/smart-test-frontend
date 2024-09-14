@@ -1,0 +1,14 @@
+<div class="sidebar">
+    <ul> 
+        <div class="logo">
+            <h3>S</h3>
+        </div>
+        <li *ngFor="let item of menuItems" 
+          [routerLink]="item.route"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }">
+        <span class="indicator"></span>
+        <i [ngClass]="item.iconClass" pTooltip="{{ item.tooltip }}"></i>
+    </li>
+    </ul>
+  </div>
