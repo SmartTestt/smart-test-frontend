@@ -36,7 +36,7 @@
 }
 
 .sidebar li.active .indicator {
-  background-color: var(--active-indicator-color, #ff5722);
+  background-color: var(--active-indicator-color, lightpink);
 }
 
 .sidebar li i {
@@ -57,5 +57,34 @@
   padding: 0px;
   margin: 0px;
   height: 60px;
-  
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.logout-item {
+  margin-top: auto;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.footer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user{
+  height: 50px;
+  width: 50px;
+  background-color: lightblue;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png");
+  background-size: cover;
 }

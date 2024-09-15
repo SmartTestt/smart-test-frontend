@@ -1,5 +1,5 @@
 <div class="sidebar">
-    <ul> 
+    <ul class="menu-list"> 
         <div class="logo">
             <h3>S</h3>
         </div>
@@ -9,6 +9,13 @@
           [routerLinkActiveOptions]="{ exact: true }">
         <span class="indicator"></span>
         <i [ngClass]="item.iconClass" pTooltip="{{ item.tooltip }}"></i>
-    </li>
+      </li>
+      <li class="logout-item">
+        <div class="footer">
+          <div class="user">
+            
+          </div>
+        </div>
+      </li>
     </ul>
   </div>
